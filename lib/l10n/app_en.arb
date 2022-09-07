@@ -1,11 +1,26 @@
 {
-    "helloWorld": "Hello World!",
-    "@helloWorld": {
-      "description": "The conventional newborn programmer greeting"
-    },
-
-    "instructions": "You have pushed the button this many times: ",
-    "@instructions": {
-        "description": "title instructions"
-    }
+   "helloWorld":"Hello World!",
+   "@helloWorld":{
+      "description":"The conventional newborn programmer greeting"
+   },
+   "appDescription":"{flutter} is Awesome",
+   "@appDescription":{
+      "placeholders":{
+         "flutter":{
+            "type":"String",
+            "example":"Flutter"
+         }
+      }
+   },
+   "counterText": "You have pushed this button :",
+   "counter": "{count,plural, =0{0} =1{1 time} other{{count} times}}",
+     "@counter": {
+       "placeholders": {
+         "count": {
+           "type": "int",
+           "example": "count"
+         }
+       }
+     },
+     "counterButtonText": "Increment"
 }
