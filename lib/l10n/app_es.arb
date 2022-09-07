@@ -1,0 +1,7 @@
+{
+    "helloWorld": "¡Hola Mundo!",
+    "@helloWorld": {
+      "description": "Lo mas convencional de comenzar un programa de internet"
+    },
+    "instructions": "Haz presionado el boton este numero de veces:"
+}
